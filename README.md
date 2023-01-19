@@ -6,4 +6,4 @@ Na trilha Explorer desenvolvemos um app chamado Habits, seu objetivo é ser um a
 * HTML
 * CSS
 
-&#x0023;Hábito &#x0023;Comprometimento 
+&#x0023;Hábito &#x0023;Comprometimento &#x0023;Aceleração 

@@ -12,36 +12,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet"> 
     <title>Habits</title>
 </head>
-<!--#Comprometimento-->
+<!--Aceleracao-->
 <body>
     <header>
         <img src="assets/logo.svg" alt="habits">
-        <button> <img src="assets/Plus.svg" alt="sinal de mais"> Registrar o meu dia</button>
+        <button> <img src="assets/Plus.svg" alt="sinal de mais"> 
+            <div>
+                Registrar o meu dia
+            </div>
+        </button>
     </header>
 
     <form id="form-habits">
         <div class="habits">
-            <div class="habit">&#128719;</div>
-            <div class="habit">&#129340;</div>
-            <div class="habit">&#128270;</div>
+            <div class="habit" data-name="sleep">&#128719;</div>
+            <div class="habit" data-name="judo">&#129340;</div>
+            <div class="habit" data-name="study">&#128270;</div>
         </div>
 
-        <div class="days">
-            <div class="day">
-                <div>03/01</div>
-                <input type="checkbox" >
-                <input type="checkbox" >
-                <input type="checkbox" >
-            </div>
-            <div class="day">
-                <div>04/01</div>
-                <input type="checkbox" >
-                <input type="checkbox" >
-                <input type="checkbox" >
-            </div>
-        </div>
+        <div class="days"></div>
     </form>
-    
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
