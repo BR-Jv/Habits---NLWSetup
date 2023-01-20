@@ -1,9 +1,31 @@
 const form = document.querySelector('#form-habits')
 const nlwSetup = new NLWSetup(form)
+const button = document.querySelector("header button")
 
-const data = {
-    sleep: ['01-01', '01-02', '01-03', '01-04','01-05' ,'01-06'],
+button.addEventListener("click", add)
+form.addEventListener("change", save)
+
+function add(){
+    const today = new Date().toLocaleDateString("pt-br").slice(0, -5)
+    const dayExists = nlwSetup.dayExists(today)
+    
+    if (dayExists){
+        alert("Dia já incluso")
+        return
+    }
+
+    nlwSetup.addDay(today)
 }
 
+/**
+ * localStorage é um objeto que armazena informação no navegador
+ * importante, estudar mais tarde!
+ */
+
+function save(){
+    localStorage.setItem('NlwSetup@habits', JSON.stringify(nlwSetup.data))
+}
+
+const data = JSON.parse(localStorage.getItem('NlwSetup@habits')) || {}
 nlwSetup.setData(data)
 nlwSetup.load()

@@ -5,5 +5,6 @@ Na trilha Explorer desenvolvemos um app chamado Habits, seu objetivo é ser um a
 ## Tecnologias usadas no projeto 
 * HTML
 * CSS
+* Javascript
 
-&#x0023;Hábito &#x0023;Comprometimento &#x0023;Aceleração 
+&#x0023;Hábito &#x0023;Comprometimento &#x0023;Aceleração &#x0023;Anonovo 
