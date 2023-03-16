@@ -1,4 +1,4 @@
-<h1 align="center"> NLW-Setup </h1>
+<h1 align="center"> Habits </h1>
 
 <p align="center">
 NLW é um evento exclusivo e gratuito, promovido pela <a href="https://www.rocketseat.com.br/">Rocketseat<a/> para ensino de tecnologias WEB.</p>
