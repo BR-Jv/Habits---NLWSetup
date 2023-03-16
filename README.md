@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ### Projeto
 
 Na trilha Explorer desenvolvemos um app chamado Habits, seu objetivo é ser um assistente de controle de hábitos.<br>
-- [visite o projeto online]()
+- [visite o projeto online](https://br-jv.github.io/Habits---NLWSetup/)
 
 <p align="center">
 Feito com dedicação por João Victor<br/>
